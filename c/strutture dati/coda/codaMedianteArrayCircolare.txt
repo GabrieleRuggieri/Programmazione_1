@@ -1,0 +1,12 @@
+E' possibile implementare una coda mediante array gestito in modo ``circolare''. 
+
+Si usano due indici, HEAD e TAIL. 
+
+Sia Q l'array e d il dato da inserire nell'array. Con un array 
+di n elementi sara' possibile mantenere una coda ``circolare'' 
+di n-1 elementi. 
+
+Inizialmente HEAD=TAIL=0. 
+
+Coda vuota: HEAD==TAIL
+Coda piena: HEAD==(TAIL+1)%n
